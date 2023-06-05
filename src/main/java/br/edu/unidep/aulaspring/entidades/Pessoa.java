@@ -1,4 +1,4 @@
-package br.edu.unidep.aulaspring;
+package br.edu.unidep.aulaspring.entidades;
 
 import java.io.Serializable;
 
@@ -25,13 +25,13 @@ public class Pessoa implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int id;
-	String nome;
-	String cpf;
-	int idade;
-	String sexo;
-	String telefone;
-	String email;
+	private int id;
+	private String nome;
+	private String cpf;
+	private int idade;
+	private String sexo;
+	private String telefone;
+	private String email;
 	
 	public Pessoa() {
 		super();
